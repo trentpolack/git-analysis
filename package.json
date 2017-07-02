@@ -1,0 +1,31 @@
+{
+  "name": "git-analysis",
+  "version": "0.1.0",
+  "description": "A suite of analysis tools for git repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trentpolack/git-analysis.git"
+  },
+  "keywords": [
+    "git",
+    "stats"
+  ],
+  "author": "Trent Polack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trentpolack/git-analysis/issues"
+  },
+  "homepage": "https://github.com/trentpolack/git-analysis#readme",
+  "devDependencies": {
+    "ghcal": "^2.3.7",
+    "git-stats": "^2.10.5",
+    "git-stats-html": "^1.0.3",
+    "git-stats-importer": "^2.4.7",
+    "github-calendar": "^1.1.12",
+    "pageres-cli": "^4.0.0"
+  }
+}
